@@ -56,7 +56,7 @@ namespace YZYL{
 #endif // C++11
 namespace YZYL{
 	template<typename _Tp,class rdcls=rnd>
-	class rand_queue{
+	class randqueue{
 		private:
 			std::vector<_Tp> rdqueue;
 			rdcls rnds;
