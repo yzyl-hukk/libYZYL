@@ -78,7 +78,7 @@ RI\n\
 
 int main(int argc,char **argv){
 	if(argc<2){
-		printf("File Error!\n");
+		printf("Usage: using <Filename> [...]\nFilename must end with `.upp'\n");
 		return 1;
 	}
 	static char cmd[4096];
